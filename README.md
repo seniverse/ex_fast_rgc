@@ -76,8 +76,8 @@ Type 3, four above ids in this block
   x * y * 2 Bytes - query map for every tiled block
 
 <BODY>
-  c1 * (16 * 2 + n * n) Bytes - Type1 Block Data
-  c2 * (16 * 4 + 2 * n * n) Bytes - Type2 Block Data
+  c1 * (2 * 2 + n * n / 8) Bytes - Type1 Block Data
+  c2 * (2 * 4 + 2 * n * n / 8) Bytes - Type2 Block Data
   c3 * (2 * n * n) Bytes - Type3 Block Data
 <BODY>
  x bytes for each row (run-length ecoding)
