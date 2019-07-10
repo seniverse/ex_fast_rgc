@@ -9,6 +9,7 @@ defmodule FastRGC.MixProject do
       app: :ex_fast_rgc,
       version: @version,
       elixir: "~> 1.8",
+      description: "Superfast reverse geocoding for city-level.",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       test_coverage: [tool: ExCoveralls],
